@@ -28,7 +28,6 @@ public class MainActivity extends AppCompatActivity {
         List<String> strings = new ArrayList<>();
         for (int i = 0; i < 50; i++) {
             strings.add("index = " + i);
-
         }
         MyAdapter adapter = new MyAdapter(this, strings);
         recyclerView.setAdapter(adapter);
