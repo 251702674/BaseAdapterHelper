@@ -1,0 +1,5 @@
+<resources>
+    <declare-styleable name="MyLayout">
+        <attr name="headerView" format="reference"/>
+    </declare-styleable>
+</resources>
